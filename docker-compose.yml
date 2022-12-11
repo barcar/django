@@ -3,5 +3,5 @@ services:
     build:
       context: app
       target: builder
-#    ports: 
-#      - '8000:8000'
+    ports: 
+      - '8484:8484'
